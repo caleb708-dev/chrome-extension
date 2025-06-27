@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+    <link rel="stylesheet" href="newtab.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="background-overlay"></div>
+    </div>
+    
+    <div class="weather-widget" id="weatherWidget">
+        <div class="weather-content">
+            <div class="weather-temp" id="weatherTemp">--°</div>
+            <div class="weather-condition" id="weatherCondition">Loading...</div>
+            <div class="weather-location" id="weatherLocation">--</div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="time-container">
+            <div class="time" id="currentTime">12:00</div>
+            <div class="date" id="currentDate">Monday, January 1</div>
+        </div>
+        
+        <div class="greeting-container">
+            <div class="greeting" id="greeting">Good morning, Friend!</div>
+        </div>
+        
+        <div class="quote-container">
+            <div class="quote" id="quote">"Loading inspirational quote..."</div>
+            <div class="quote-footer">
+                <div class="quote-author" id="quoteAuthor">- Author</div>
+                <button class="quote-refresh" id="quoteRefresh" title="Get new quote">🔄</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="settings-button" id="settingsButton">⚙️</div>
+    
+    <script src="newtab.js"></script>
+</body>
+</html> 

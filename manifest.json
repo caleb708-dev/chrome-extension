@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab Dashboard",
+  "version": "2.0.0",
+  "description": "A clean and minimal new tab page with time, quotes, wallpapers, and weather",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "storage",
+    "geolocation"
+  ],
+  "host_permissions": [
+    "https://zenquotes.io/*",
+    "https://bingw.jasonzeng.dev/*",
+    "https://api.open-meteo.com/*",
+    "https://geocoding-api.open-meteo.com/*"
+  ],
+  "action": {
+    "default_popup": "settings.html"
+  }
+} 
